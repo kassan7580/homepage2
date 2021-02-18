@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<title>htmlの練習</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="css/normalize.css" rel="stylesheet" />
+	<link href="jquery.bxslider.css" rel="stylesheet" />
+	<link href="css/menu_style.css" rel="stylesheet">
+	<link rel = "preconnect" href = "https://fonts.gstatic.com">
+	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+<body>
+	
+	<header>
+		<p class="logo">
+			<img src="tea.jpeg" alt="カフェのロゴ" >cafe カッサン
+		</p>
+		<p class="adress">
+			〒550-0052<br/>
+			大阪市阿倍野区阿倍野筋1-1-1-111<br/>
+			TEL:090-0000-0000
+		</p>
+	</header>	
+	<nav>
+		<ul>
+			<li><a href="index.html">ホーム</a></li>
+			<li><a href="menu.html">メニュー</a></li>
+			<li><a href="index.html">アクセス</a></li>
+			<li><a href="otoiawase.html">お問い合わせ</a></li>
+		</ul>
+	</nav>
+	<main>
+		<ul id="cafe_tennai">
+			<li><img src="CIMG0311.JPG" alt="玄米カレー"></li>
+			<li><img src="CIMG0338.JPG" alt="おかゆプレート"></li>
+			<li><img src="CIMG0341.JPG" alt="ガトーショコラ"></li>
+			<li><img src="CIMG0236.JPG" alt="桃ケーキセット"></li>
+			<li><img src="CIMG0253.JPG" alt="チョコケーキセット"></li>
+			<li><img src="CIMG0306.JPG" alt="オムライス"></li>
+		</ul>
+		
+			
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="jquery.bxslider.js"></script>
+	<script>
+		$(function(){
+			$('#cafe_tennai').bxSlider();
+		});
+	</script>
+	</script>	
+	</main>
+	<footer>
+		<p><a href="index.html"><img src="tea.jpeg" alt="カフェのロゴ">cafe カッサン</a></p>
+		<nav>
+			<ul>
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="menu.html">メニュー</a></li>
+				<li><a href="index.html">アクセス</a></li>
+				<li><a href="otoiawase.html">お問い合わせ</a></li>
+			</ul>
+		</nav>
+		<nav>
+			<div class="snsBtn">
+				<ul class="snsBtn2">
+					<li><img src="f_logo_RGB-Hex-Blue_512.png" alt="フェイブック"></li>
+					<li><img src="Twitter_Logo_WhiteOnBlue.png" alt="ツイッター"></li>
+				</ul>
+			</div>
+		</nav>
+		<p class="owabi">このホームページは実在しません。架空の練習のページです。</p>
+	</footer>
+</body>
+</html>

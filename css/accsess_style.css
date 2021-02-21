@@ -1,0 +1,115 @@
+@charset "UTF-8";
+h1{
+	
+	font-weight:normal;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	line-height: 1;
+}
+ul{
+	list-style: none;
+	list-style-type: none;
+}
+
+main{
+	display:block;
+}
+
+body{
+	background-color:#cccc99;
+	font-family:'ヒラギノ角ゴシック　Pro','Hiragino Kaku Gothic Pro',メイリオ,Meiryo,Osaka,'Ms Pゴシック','MS PGothic',sans-serif;
+}
+
+header,main,nav,footer{
+	margin: 0 auto;
+	width:1170px;
+}
+header{
+	background-color:#cccc66;
+	height: 140px;
+}
+header .logo{
+	float:left;
+	padding: 0 0 40px;
+}
+header .adress{
+	float: right;
+	font-size:16px;
+	line-height:1.5;
+	padding:10px 30px 0 0;
+}
+ul{
+	color:#333;
+	display:flex;
+	
+	background-color:#cc6633;
+	font-size:18px;
+	font-weight:bold;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:4px;
+}
+nav a{
+	display: block;
+	width:180px;
+	padding: 15px 55px;
+	text-align:center;
+	text-decoration: none;
+}
+nav a:hover{
+	border-color: #ff3300;
+}
+nav ul li{
+	display:inline-block;
+	text-decoration: none;
+}
+
+footer{
+	padding: 20px 0 30px;
+	background-color:#cccc66;
+	text-align:center;
+}	
+
+footer nav ul {
+	background-color:#cccc66;
+	
+}
+footer nav ul li a{
+	display: inline-block;
+	
+}
+.snsBtn ul{
+	
+	display:block;
+	float:none;
+	padding-left:0;
+}
+.owabi{
+	font-size:30px;
+}
+
+main{
+	margin-bottom: 80px;
+}
+
+main p{
+	line-height: 1.5;
+	margin-bottom:30px;
+}
+
+main a:link{
+	color:#1d297f;
+}
+
+main h2{
+	background-color: url(b077.jpg)no-repeat 45px 50%;
+	color:#79420d;
+	font-size:21px;
+	font-weight:bold;
+	margin-bottom:15px;
+	padding:15px 15px 15px 50px;
+}
+
